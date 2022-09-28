@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    "",
+    "\\HavenInn-Backend",
+    "\\HavenInn-Backend\\bin",
+    "\\HavenInn-Backend\\Controllers",
     "\\haveninn-frontend"
   ],
   "PreviewInSolutionExplorer": false
