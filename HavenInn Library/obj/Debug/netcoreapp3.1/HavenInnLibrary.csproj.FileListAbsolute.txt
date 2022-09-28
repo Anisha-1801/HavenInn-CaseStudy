@@ -24,3 +24,16 @@ C:\Users\JANHAVI\OneDrive\Desktop\NOTES\Capgemini\Project\HavenInn_Project\Haven
 C:\Users\JANHAVI\OneDrive\Desktop\NOTES\Capgemini\Project\HavenInn_Project\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.dll
 C:\Users\JANHAVI\OneDrive\Desktop\NOTES\Capgemini\Project\HavenInn_Project\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.pdb
 C:\Users\JANHAVI\OneDrive\Desktop\NOTES\Capgemini\Project\HavenInn_Project\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.genruntimeconfig.cache
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\bin\Debug\netcoreapp3.1\HavenInnLibrary.deps.json
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\bin\Debug\netcoreapp3.1\HavenInnLibrary.runtimeconfig.json
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\bin\Debug\netcoreapp3.1\HavenInnLibrary.runtimeconfig.dev.json
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\bin\Debug\netcoreapp3.1\HavenInnLibrary.dll
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\bin\Debug\netcoreapp3.1\HavenInnLibrary.pdb
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.csproj.AssemblyReference.cache
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.AssemblyInfoInputs.cache
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.AssemblyInfo.cs
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.csproj.CoreCompileInputs.cache
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.dll
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.pdb
+D:\Capg\Case Study HavenInn\HavenInn-CaseStudy\HavenInn Library\obj\Debug\netcoreapp3.1\HavenInnLibrary.genruntimeconfig.cache

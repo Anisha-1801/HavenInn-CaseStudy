@@ -13,7 +13,7 @@ namespace HavenInn_Backend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Owner")]
+    
     public class RoomTypesController : ControllerBase
     {
         private readonly HavenInnContext _context;
@@ -25,6 +25,7 @@ namespace HavenInn_Backend.Controllers
 
         // GET: api/RoomTypes
         [HttpGet]
+        [Authorize(Roles = "Receptionist,Manager,Owner")]
         public async Task<ActionResult<IEnumerable<RoomType>>> GetRoomType()
         {
             return await _context.RoomType.ToListAsync();
@@ -32,6 +33,7 @@ namespace HavenInn_Backend.Controllers
 
         // GET: api/RoomTypes/5
         [HttpGet("{id}")]
+        [Authorize(Roles = "Receptionist,Manager,Owner")]
         public async Task<ActionResult<RoomType>> GetRoomType(int id)
         {
             var roomType = await _context.RoomType.FindAsync(id);
@@ -47,7 +49,8 @@ namespace HavenInn_Backend.Controllers
         // PUT: api/RoomTypes/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
+        [HttpPut("Update/{id}")]
+        [Authorize(Roles = "Owner")]
         public async Task<IActionResult> PutRoomType(int id, RoomType roomType)
         {
             if (id != roomType.RoomTypeId)
@@ -79,7 +82,8 @@ namespace HavenInn_Backend.Controllers
         // POST: api/RoomTypes
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPost]
+        [HttpPost("Add")]
+        [Authorize(Roles = "Owner")]
         public async Task<ActionResult<RoomType>> PostRoomType(RoomType roomType)
         {
             _context.RoomType.Add(roomType);
@@ -89,7 +93,8 @@ namespace HavenInn_Backend.Controllers
         }
 
         // DELETE: api/RoomTypes/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete/{id}")]
+        [Authorize(Roles = "Owner")]
         public async Task<ActionResult<RoomType>> DeleteRoomType(int id)
         {
             var roomType = await _context.RoomType.FindAsync(id);
