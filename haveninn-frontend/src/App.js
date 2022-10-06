@@ -6,6 +6,8 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import Navigation from './Components/Navigation/Navigation';
 import SearchRooms from './Components/Receptionist/SearchRooms';
 import Dashboard from './Components/Dashboard/Dashboard';
+import GuestAddform from './Components/Guest/GuestAddform';
+import Reservation from './Components/Reservation/Reservation';
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
             <Route path='/contact' element={<Contact/>} />
             <Route path='/dashboard' element={<Dashboard/>} />
             <Route path='/searchroom' element={<SearchRooms/>} />
+            <Route path='/AddGuest' element={<GuestAddform/>} />
+            <Route path='/Reservation' element={<Reservation/>} />
+
             {/* <Route path='/signup' element={<Signup/>} /> 
             <Route path='/login' element={<Login/>} /> 
             <Route path='/addpet' element={<AddPet/>} />  */}

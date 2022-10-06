@@ -29,9 +29,11 @@ namespace HavenInn_Backend.Controllers
         [Authorize(Roles = "Receptionist,Manager,Owner")]
         public async Task<ActionResult<IEnumerable<Reservation>>> GetReservation()
         {
+
+
             try
-            { 
-            return await _context.Reservation.ToListAsync();
+            {
+                return await _context.Reservation.Include("Guest").Include("Room").Include(service => service.Service).ToListAsync();
             }
               catch (Exception e)
             {

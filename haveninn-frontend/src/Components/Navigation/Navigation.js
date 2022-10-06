@@ -4,6 +4,7 @@ import "./Navigation.css";
 import "./logo.png";
 import Login from "../Login/Login";
 import Variables from "../../Variables/Variables";
+
  
 function Navigation() {
     const [modalShow, setModalShow] = React.useState(false);

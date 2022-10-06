@@ -65,7 +65,7 @@ namespace HavenInn_Backend.Controllers
         [Authorize(Roles = "Receptionist,Manager,Owner")]
         public async Task<ActionResult<IEnumerable<Room>>> availablerooms()
         {
-            IQueryable<Room> query = _context.Room;
+            IQueryable<Room> query = _context.Room.Include(i => i.RoomType);
             
             try
             {

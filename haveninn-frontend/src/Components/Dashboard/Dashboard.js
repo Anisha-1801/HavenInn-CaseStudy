@@ -5,10 +5,14 @@ class Dashboard extends Component {
   render() {
     return (
       <div>
-        <div className="intro-banner-wrap">
-	        {/* <img src={require("./hotel-bg.jpg")} class="w-100 img-fluid-hotel" alt="hotel"/> */}
+        <div className="">
+          <a className='btn btn-warning' href="/Reservation">
+            Reservation
+          </a>
+
+
         </div>
-        <SearchRooms/>
+        <SearchRooms />
       </div>
     )
   }
